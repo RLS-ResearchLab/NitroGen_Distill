@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Probe the NitroGen HF dataset labels: download a sample of chunks and report the
-statistics that matter for distillation (idle fraction, button press rates, right-stick
-usage vs the virtual-button threshold, games covered).
+"""Probe extracted NitroGen dataset labels: statistics that matter for distillation
+(idle fraction, button press rates, right-stick usage vs the virtual-button threshold,
+games covered, metadata sanity).
 
-Writes results/label_stats.json and .md.
+Expects an extracted shard under --root (see ./env.sh dataset). Writes
+results/label_stats.json and .md.
 
-Usage: python scripts/probe_labels.py [--videos 12] [--chunks-per-video 2] [--shard SHARD_0000]
+Usage: python scripts/probe_labels.py [--root data/nitrogen/actions] [--max-chunks 200]
 """
 
 import argparse
@@ -14,50 +15,28 @@ from collections import Counter
 from pathlib import Path
 
 import numpy as np
-from huggingface_hub import HfApi, hf_hub_download
 
-from ngd.data.actions import DATASET_BUTTONS, load_chunk_actions, load_chunk_metadata
-
-REPO = "nvidia/NitroGen"
-
-
-def sample_chunk_dirs(api: HfApi, shard: str, n_videos: int, chunks_per_video: int) -> list[str]:
-    """Return repo-relative chunk dirs like actions/SHARD_0000/<vid>/<vid>_chunk_0000."""
-    videos = [e.path for e in api.list_repo_tree(REPO, f"actions/{shard}", repo_type="dataset")][:n_videos]
-    chunk_dirs = []
-    for video in videos:
-        chunks = sorted(e.path for e in api.list_repo_tree(REPO, video, repo_type="dataset"))
-        chunk_dirs.extend(chunks[:chunks_per_video])
-    return chunk_dirs
-
-
-def download_chunk(chunk_dir: str, dest_root: Path) -> Path | None:
-    local = dest_root / chunk_dir
-    for filename in ["metadata.json", "actions_processed.parquet", "actions_raw.parquet"]:
-        try:
-            hf_hub_download(REPO, f"{chunk_dir}/{filename}", repo_type="dataset",
-                            local_dir=dest_root)
-        except Exception:
-            if filename == "metadata.json":
-                return None  # unusable without metadata
-    return local if any(local.glob("actions_*.parquet")) else None
+from ngd.data.actions import DATASET_BUTTONS, iter_chunk_dirs, load_chunk_actions, load_chunk_metadata
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--shard", default="SHARD_0000")
-    parser.add_argument("--videos", type=int, default=12)
-    parser.add_argument("--chunks-per-video", type=int, default=2)
-    parser.add_argument("--dest", default="data/probe")
+    parser.add_argument("--root", default="data/nitrogen/actions")
+    parser.add_argument("--max-chunks", type=int, default=200)
     parser.add_argument("--out", default="results")
     parser.add_argument("--stick-threshold", type=float, default=0.5)
     args = parser.parse_args()
 
-    api = HfApi()
-    chunk_dirs = sample_chunk_dirs(api, args.shard, args.videos, args.chunks_per_video)
-    print(f"Sampling {len(chunk_dirs)} chunks from {args.shard}")
+    root = Path(args.root)
+    assert root.exists(), f"{root} not found -- run ./env.sh dataset first"
 
-    dest_root = Path(args.dest)
+    # Spread the sample across videos: take chunks round-robin by video directory.
+    all_chunks = list(iter_chunk_dirs(root))
+    by_video = Counter(c.parent for c in all_chunks)
+    print(f"Found {len(all_chunks)} chunks across {len(by_video)} videos under {root}")
+    chunks = sorted(all_chunks, key=lambda c: (int(c.name.rsplit("_", 1)[-1]) if c.name.rsplit("_", 1)[-1].isdigit() else 0, str(c)))
+    chunks = chunks[: args.max_chunks]
+
     games, sources, controller_types = Counter(), Counter(), Counter()
     press = np.zeros(len(DATASET_BUTTONS))
     total_frames = 0
@@ -65,19 +44,24 @@ def main():
     stick_active = {"j_left": 0, "j_right": 0}
     right_virtual = np.zeros(4)  # up, down, left, right beyond threshold
     row_mismatches = []
+    has_processed = 0
     per_chunk = []
+    skipped = 0
 
-    for chunk_dir in chunk_dirs:
-        local = download_chunk(chunk_dir, dest_root)
-        if local is None:
-            print(f"  skip (missing files): {chunk_dir}")
+    for chunk_dir in chunks:
+        try:
+            meta = load_chunk_metadata(chunk_dir)
+            acts = load_chunk_actions(chunk_dir)
+        except Exception as err:
+            print(f"  skip {chunk_dir.name}: {err}")
+            skipped += 1
             continue
-        meta = load_chunk_metadata(local)
-        acts = load_chunk_actions(local)
         T = acts["buttons"].shape[0]
 
         if meta.get("chunk_size") != T:
-            row_mismatches.append({"chunk": chunk_dir, "metadata": meta.get("chunk_size"), "parquet_rows": T})
+            row_mismatches.append({"chunk": str(chunk_dir), "metadata": meta.get("chunk_size"), "parquet_rows": T})
+        if (chunk_dir / "actions_processed.parquet").exists():
+            has_processed += 1
 
         games[meta.get("game", "?")] += 1
         sources[meta.get("original_video", {}).get("source", "?")] += 1
@@ -95,15 +79,17 @@ def main():
         idle_frames += int(idle.sum())
         total_frames += T
 
-        per_chunk.append({"chunk": chunk_dir, "game": meta.get("game"), "frames": T,
-                          "fps": T / meta["original_video"]["duration"] if meta.get("original_video", {}).get("duration") else None,
-                          "idle_frac": float(idle.mean())})
+        duration = meta.get("original_video", {}).get("duration")
+        per_chunk.append({"chunk": str(chunk_dir.relative_to(root)), "game": meta.get("game"), "frames": T,
+                          "fps": T / duration if duration else None, "idle_frac": float(idle.mean())})
 
-    assert total_frames > 0, "No chunks downloaded successfully"
+    assert total_frames > 0, "No chunks parsed successfully"
 
     stats = {
-        "shard": args.shard,
-        "chunks": len(per_chunk),
+        "root": str(root),
+        "chunks_sampled": len(per_chunk),
+        "chunks_skipped": skipped,
+        "chunks_with_processed_parquet": has_processed,
         "total_frames": total_frames,
         "idle_frame_fraction": idle_frames / total_frames,
         "button_press_rate": {b: press[i] / total_frames for i, b in enumerate(DATASET_BUTTONS)},
@@ -113,8 +99,8 @@ def main():
             "up": right_virtual[0] / total_frames, "down": right_virtual[1] / total_frames,
             "left": right_virtual[2] / total_frames, "right": right_virtual[3] / total_frames,
         },
-        "games": dict(games), "sources": dict(sources), "controller_types": dict(controller_types),
-        "metadata_vs_parquet_row_mismatches": row_mismatches,
+        "games": dict(games.most_common()), "sources": dict(sources), "controller_types": dict(controller_types),
+        "metadata_vs_parquet_row_mismatches": row_mismatches[:20],
         "per_chunk": per_chunk,
     }
 
@@ -124,14 +110,15 @@ def main():
 
     rates = sorted(stats["button_press_rate"].items(), key=lambda kv: -kv[1])
     lines = [
-        f"# Label probe — {args.shard} ({stats['chunks']} chunks, {total_frames:,} frames)",
+        f"# Label probe — {stats['chunks_sampled']} chunks, {total_frames:,} frames",
         "",
         f"- idle frames (no buttons, sticks in deadzone): **{stats['idle_frame_fraction']:.1%}**"
         " (paper mentions IDLE filtering — this is how much there is to filter)",
+        f"- chunks with actions_processed.parquet: {has_processed}/{stats['chunks_sampled']}",
         f"- stick usage: left {stats['stick_active_fraction']['j_left']:.1%}, right {stats['stick_active_fraction']['j_right']:.1%}",
         f"- right stick beyond ±{args.stick_threshold} (virtual-button candidates): "
         + ", ".join(f"{k} {v:.2%}" for k, v in list(stats["right_stick_beyond_threshold"].items())[1:]),
-        f"- games in sample: {', '.join(f'{g} ({n})' for g, n in games.most_common())}",
+        f"- games in sample ({len(games)}): {', '.join(f'{g} ({n})' for g, n in games.most_common(15))}",
         f"- metadata/parquet row mismatches: {len(row_mismatches)}",
         "",
         "| button | press rate |",
@@ -139,7 +126,7 @@ def main():
         *[f"| {b} | {r:.3%} |" for b, r in rates],
     ]
     (out_dir / "label_stats.md").write_text("\n".join(lines) + "\n")
-    print("\n".join(lines[:10]))
+    print("\n".join(lines[:12]))
     print(f"\nWrote {out_dir}/label_stats.json and .md")
 
 
