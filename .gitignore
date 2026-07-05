@@ -2,10 +2,10 @@
 NitroGen/
 third_party/
 
-# Large artifacts (never push weights or data)
-checkpoints/
-data/
-outputs/
+# Large artifacts (never push weights or data) -- root-anchored so ngd/data stays tracked
+/checkpoints/
+/data/
+/outputs/
 nitrogen.pdf
 *.pt
 
