@@ -1,0 +1,2910 @@
+{
+  "root": "data/nitrogen/actions",
+  "chunks_sampled": 400,
+  "chunks_skipped": 0,
+  "chunks_with_processed_parquet": 154,
+  "total_frames": 460024,
+  "idle_frame_fraction": 0.35083386953724155,
+  "button_press_rate": {
+    "dpad_down": 0.005647531433142619,
+    "dpad_left": 0.0014607933499121786,
+    "dpad_right": 0.0055953602420743265,
+    "dpad_up": 0.004793228179399336,
+    "left_shoulder": 0.021307583952141627,
+    "left_thumb": 0.007990887431960072,
+    "left_trigger": 0.030352764203606768,
+    "right_shoulder": 0.009279950611272455,
+    "right_thumb": 0.0035759003878058537,
+    "right_trigger": 0.2175060431629654,
+    "south": 0.0405152774637845,
+    "west": 0.034087351964245345,
+    "east": 0.09547980105385806,
+    "north": 0.011429838443211658,
+    "back": 0.001199937394570718,
+    "start": 0.007003982400918213,
+    "guide": 0.0
+  },
+  "stick_active_fraction": {
+    "j_left": 0.459097786202459,
+    "j_right": 0.08076535137297185
+  },
+  "right_stick_beyond_threshold": {
+    "threshold": 0.5,
+    "up": 0.01525789958784759,
+    "down": 0.011790689181434012,
+    "left": 0.0204511068987705,
+    "right": 0.016473053579813227
+  },
+  "games": {
+    "other": 176,
+    "kingdom_hearts_hd_1_5___2_5_remix": 24,
+    "elden_ring": 19,
+    "dark_souls_iii": 17,
+    "rocket_league": 16,
+    "fall_guys__ultimate_knockout": 11,
+    "kingdom_hearts__melody_of_memory": 11,
+    "fortnite": 10,
+    "hollow_knight": 8,
+    "sekiro__shadows_die_twice": 8,
+    "mx_bikes": 6,
+    "session__skate_sim": 6,
+    "mx_simulator": 4,
+    "geometry_dash": 4,
+    "riders_republic": 3,
+    "game_3": 3,
+    "inscreva-se_no_canal_": 3,
+    "art_of_rally": 3,
+    "lothric_castle": 3,
+    "dark_souls": 3,
+    "_untitled_chapter_1_": 3,
+    "hades": 3,
+    "little_nightmares": 2,
+    "stranger_of_paradise__final_fantasy_origin": 2,
+    "call_of_duty__modern_warfare_ii": 2,
+    "halo_infinite": 2,
+    "lies_of_p": 2,
+    "castlevania__symphony_of_the_night": 2,
+    "salt_and_sanctuary": 2,
+    "the_legend_of_zelda__tears_of_the_kingdom": 2,
+    "dragon_ball__sparking__zero": 2,
+    "retro": 2,
+    "dark_souls_ii__scholar_of_the_first_sin": 2,
+    "dead_cells": 2,
+    "final_fantasy_ix": 2,
+    "clair_obscur__expedition_33": 2,
+    "monster_hunter_wilds": 2,
+    "devil_may_cry_3__dante_s_awakening_-_special_edition": 2,
+    "cuphead": 2,
+    "hollow_knight__silksong": 2,
+    "skating_the_map": 2,
+    "thin_ice": 2,
+    "hex-a-gone": 2,
+    "flutter_barn": 2,
+    "persona_3_reload": 1,
+    "metaphor__refantazio": 1,
+    "little_nightmares_ii": 1,
+    "patapon": 1,
+    "_sekiro__shadows_die_twice": 1,
+    "bloodborne": 1,
+    "celeste": 1,
+    "shantae__half-genie_hero": 1,
+    "tentative_run_any__n_2__yaggi_pb___18_33_": 1,
+    "apex_legends": 1,
+    "grand_theft_auto_v": 1,
+    "streets_of_rage_2": 1
+  },
+  "sources": {
+    "youtube": 274,
+    "twitch": 126
+  },
+  "controller_types": {
+    "xboxone": 216,
+    "ps4": 136,
+    "switch": 21,
+    "ps5": 23,
+    "ps3": 4
+  },
+  "metadata_vs_parquet_row_mismatches": [],
+  "per_chunk": [
+    {
+      "chunk": "SHARD_0000/-N72WiKxmfg/-N72WiKxmfg_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.38666666666666666
+    },
+    {
+      "chunk": "SHARD_0000/18vq3UpvNL0/18vq3UpvNL0_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 1.0
+    },
+    {
+      "chunk": "SHARD_0000/1SW2AZ47720/1SW2AZ47720_chunk_0000",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8608333333333333
+    },
+    {
+      "chunk": "SHARD_0000/2MoMeH5mO8E/2MoMeH5mO8E_chunk_0000",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5383333333333333
+    },
+    {
+      "chunk": "SHARD_0000/2jJENZDPzVU/2jJENZDPzVU_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.48333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/3hxvakUckVI/3hxvakUckVI_chunk_0000",
+      "game": "riders_republic",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.8472454090150251
+    },
+    {
+      "chunk": "SHARD_0000/42FpL8jk4QM/42FpL8jk4QM_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3883333333333333
+    },
+    {
+      "chunk": "SHARD_0000/4OayD3cIRI0/4OayD3cIRI0_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4716666666666667
+    },
+    {
+      "chunk": "SHARD_0000/6LhiIhAPg2s/6LhiIhAPg2s_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7533333333333333
+    },
+    {
+      "chunk": "SHARD_0000/7gTA_UdeUNM/7gTA_UdeUNM_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4716666666666667
+    },
+    {
+      "chunk": "SHARD_0000/9-FusL-aJUw/9-FusL-aJUw_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.41583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/9KMgOT104ug/9KMgOT104ug_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4116666666666667
+    },
+    {
+      "chunk": "SHARD_0000/A1u-GF_F0mo/A1u-GF_F0mo_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.17916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/B7w19l4tGG4/B7w19l4tGG4_chunk_0000",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.735
+    },
+    {
+      "chunk": "SHARD_0000/Bqghfh9Vhog/Bqghfh9Vhog_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.35333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/CYQDBsAvBOg/CYQDBsAvBOg_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3858333333333333
+    },
+    {
+      "chunk": "SHARD_0000/Fihy-RdZIq8/Fihy-RdZIq8_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.575
+    },
+    {
+      "chunk": "SHARD_0000/GO5zw1-RtqQ/GO5zw1-RtqQ_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.44583333333333336
+    },
+    {
+      "chunk": "SHARD_0000/J5VbfsGeWVg/J5VbfsGeWVg_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4125
+    },
+    {
+      "chunk": "SHARD_0000/Jq_87HyaQ1o/Jq_87HyaQ1o_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.38166666666666665
+    },
+    {
+      "chunk": "SHARD_0000/LdJlCGLOBvI/LdJlCGLOBvI_chunk_0000",
+      "game": "game_3",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6
+    },
+    {
+      "chunk": "SHARD_0000/Lwvz4EXT6JE/Lwvz4EXT6JE_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/MfCI5IX4r1E/MfCI5IX4r1E_chunk_0000",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.91
+    },
+    {
+      "chunk": "SHARD_0000/NnZp7ZKY6G4/NnZp7ZKY6G4_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.14583333333333334
+    },
+    {
+      "chunk": "SHARD_0000/OCj7w1_yde4/OCj7w1_yde4_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4741666666666667
+    },
+    {
+      "chunk": "SHARD_0000/OaU9mKo_n5w/OaU9mKo_n5w_chunk_0000",
+      "game": "mx_bikes",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8783333333333333
+    },
+    {
+      "chunk": "SHARD_0000/PhCB59tSwU4/PhCB59tSwU4_chunk_0000",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.1010016694490818
+    },
+    {
+      "chunk": "SHARD_0000/Q1Bq5BPiroo/Q1Bq5BPiroo_chunk_0000",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.66
+    },
+    {
+      "chunk": "SHARD_0000/QOBW_A019FY/QOBW_A019FY_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.10666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/RKV9oAx2ILg/RKV9oAx2ILg_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4033333333333333
+    },
+    {
+      "chunk": "SHARD_0000/UrTqVw3ZZW8/UrTqVw3ZZW8_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.38666666666666666
+    },
+    {
+      "chunk": "SHARD_0000/VDCTXGPN3_Y/VDCTXGPN3_Y_chunk_0000",
+      "game": "session__skate_sim",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2
+    },
+    {
+      "chunk": "SHARD_0000/WzDT8K9YBLs/WzDT8K9YBLs_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.07
+    },
+    {
+      "chunk": "SHARD_0000/XGD6nwJ7j0s/XGD6nwJ7j0s_chunk_0000",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.06844741235392321
+    },
+    {
+      "chunk": "SHARD_0000/XyCsr72T7bA/XyCsr72T7bA_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3358333333333333
+    },
+    {
+      "chunk": "SHARD_0000/YKgacjLqP6I/YKgacjLqP6I_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.8046744574290484
+    },
+    {
+      "chunk": "SHARD_0000/YhMMEp25UoM/YhMMEp25UoM_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.41083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/_ptzQ_gFsWk/_ptzQ_gFsWk_chunk_0000",
+      "game": "inscreva-se_no_canal_",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.8233333333333334
+    },
+    {
+      "chunk": "SHARD_0000/atOWEpWK-IA/atOWEpWK-IA_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.19166666666666668
+    },
+    {
+      "chunk": "SHARD_0000/bFUbfve1eh8/bFUbfve1eh8_chunk_0000",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8683333333333333
+    },
+    {
+      "chunk": "SHARD_0000/cKjp5_ARZ2Y/cKjp5_ARZ2Y_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.07833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/eBByeqJAUIE/eBByeqJAUIE_chunk_0000",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.32303839732888145
+    },
+    {
+      "chunk": "SHARD_0000/fKfN04c1teM/fKfN04c1teM_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.745
+    },
+    {
+      "chunk": "SHARD_0000/g45OJquQXDw/g45OJquQXDw_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.38916666666666666
+    },
+    {
+      "chunk": "SHARD_0000/gjN_b0t7WVA/gjN_b0t7WVA_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5375
+    },
+    {
+      "chunk": "SHARD_0000/h6HlQDqhiiE/h6HlQDqhiiE_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.021666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/hu2apbhsask/hu2apbhsask_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.43833333333333335
+    },
+    {
+      "chunk": "SHARD_0000/izDnNQOunfM/izDnNQOunfM_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9441666666666667
+    },
+    {
+      "chunk": "SHARD_0000/jIy9Nz9rKqw/jIy9Nz9rKqw_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/jek-wuxheKc/jek-wuxheKc_chunk_0000",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.7383333333333333
+    },
+    {
+      "chunk": "SHARD_0000/k-xRGJa2WPg/k-xRGJa2WPg_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.23916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/kjHMCaaPv04/kjHMCaaPv04_chunk_0000",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.03923205342237062
+    },
+    {
+      "chunk": "SHARD_0000/lYbYUmGbW68/lYbYUmGbW68_chunk_0000",
+      "game": "art_of_rally",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.10416666666666667
+    },
+    {
+      "chunk": "SHARD_0000/lwFEJDDIvf4/lwFEJDDIvf4_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.12333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/mH5Z0VFkCaA/mH5Z0VFkCaA_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.33889816360601
+    },
+    {
+      "chunk": "SHARD_0000/mz9L5REkVSc/mz9L5REkVSc_chunk_0000",
+      "game": "lothric_castle",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.18916666666666668
+    },
+    {
+      "chunk": "SHARD_0000/neqv-LM1rNw/neqv-LM1rNw_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.15833333333333333
+    },
+    {
+      "chunk": "SHARD_0000/om79NcXk0yo/om79NcXk0yo_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8058333333333333
+    },
+    {
+      "chunk": "SHARD_0000/p3dNZNcx8hk/p3dNZNcx8hk_chunk_0000",
+      "game": "dark_souls",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.9131886477462438
+    },
+    {
+      "chunk": "SHARD_0000/pRA4enniVBA/pRA4enniVBA_chunk_0000",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.4266666666666667
+    },
+    {
+      "chunk": "SHARD_0000/plk3ew345RI/plk3ew345RI_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/q6RX8Hg3_qk/q6RX8Hg3_qk_chunk_0000",
+      "game": "_untitled_chapter_1_",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.013333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/rUj0PUnF3mU/rUj0PUnF3mU_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.39916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/sZMgHppWIXQ/sZMgHppWIXQ_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8208333333333333
+    },
+    {
+      "chunk": "SHARD_0000/swR7dbGIMDs/swR7dbGIMDs_chunk_0000",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5966666666666667
+    },
+    {
+      "chunk": "SHARD_0000/tH520Ah-J-E/tH520Ah-J-E_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9633333333333334
+    },
+    {
+      "chunk": "SHARD_0000/ta3BF1RPHD4/ta3BF1RPHD4_chunk_0000",
+      "game": "session__skate_sim",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2
+    },
+    {
+      "chunk": "SHARD_0000/twDMdrSxWfw/twDMdrSxWfw_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.065
+    },
+    {
+      "chunk": "SHARD_0000/uJfLqL7Tehw/uJfLqL7Tehw_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.38666666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v1013154358/v1013154358_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1074148792/v1074148792_chunk_0000",
+      "game": "hades",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.7028380634390651
+    },
+    {
+      "chunk": "SHARD_0000/v1134616264/v1134616264_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04416666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1295338174/v1295338174_chunk_0000",
+      "game": "mx_simulator",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.05583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v141735129/v141735129_chunk_0000",
+      "game": "little_nightmares",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.6916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1448044952/v1448044952_chunk_0000",
+      "game": "stranger_of_paradise__final_fantasy_origin",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9175
+    },
+    {
+      "chunk": "SHARD_0000/v1475402598/v1475402598_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6925
+    },
+    {
+      "chunk": "SHARD_0000/v1526625507/v1526625507_chunk_0000",
+      "game": "mx_simulator",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.030833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v1600575438/v1600575438_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.72
+    },
+    {
+      "chunk": "SHARD_0000/v1658382176/v1658382176_chunk_0000",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8425
+    },
+    {
+      "chunk": "SHARD_0000/v1708436956/v1708436956_chunk_0000",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9058333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v1730154745/v1730154745_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6275
+    },
+    {
+      "chunk": "SHARD_0000/v1754493974/v1754493974_chunk_0000",
+      "game": "call_of_duty__modern_warfare_ii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.07
+    },
+    {
+      "chunk": "SHARD_0000/v1775280851/v1775280851_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8475
+    },
+    {
+      "chunk": "SHARD_0000/v1865975542/v1865975542_chunk_0000",
+      "game": "halo_infinite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7075
+    },
+    {
+      "chunk": "SHARD_0000/v1953240723/v1953240723_chunk_0000",
+      "game": "lies_of_p",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6308333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v1971580714/v1971580714_chunk_0000",
+      "game": "fortnite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.11583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1990168650/v1990168650_chunk_0000",
+      "game": "castlevania__symphony_of_the_night",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.26166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2033270423/v2033270423_chunk_0000",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2925
+    },
+    {
+      "chunk": "SHARD_0000/v2047147293/v2047147293_chunk_0000",
+      "game": "salt_and_sanctuary",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.6686143572621035
+    },
+    {
+      "chunk": "SHARD_0000/v2067906738/v2067906738_chunk_0000",
+      "game": "geometry_dash",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.755
+    },
+    {
+      "chunk": "SHARD_0000/v2079691018/v2079691018_chunk_0000",
+      "game": "persona_3_reload",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.62
+    },
+    {
+      "chunk": "SHARD_0000/v2122506189/v2122506189_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.195
+    },
+    {
+      "chunk": "SHARD_0000/v2129272837/v2129272837_chunk_0000",
+      "game": "fortnite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2135647078/v2135647078_chunk_0000",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9325
+    },
+    {
+      "chunk": "SHARD_0000/v2162110313/v2162110313_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.26666666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2204970770/v2204970770_chunk_0000",
+      "game": "the_legend_of_zelda__tears_of_the_kingdom",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.10583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2220952459/v2220952459_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.05759599332220367
+    },
+    {
+      "chunk": "SHARD_0000/v2232417875/v2232417875_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.11916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2241243379/v2241243379_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.13666666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2251390311/v2251390311_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.42333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v2274948520/v2274948520_chunk_0000",
+      "game": "metaphor__refantazio",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9183333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2287391750/v2287391750_chunk_0000",
+      "game": "dragon_ball__sparking__zero",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8658333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2297468680/v2297468680_chunk_0000",
+      "game": "elden_ring",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.8616666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2312330331/v2312330331_chunk_0000",
+      "game": "retro",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.48083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2330003861/v2330003861_chunk_0000",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5316666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2364929602/v2364929602_chunk_0000",
+      "game": "fortnite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2371789066/v2371789066_chunk_0000",
+      "game": "geometry_dash",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5516666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2408179393/v2408179393_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.42083333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v2412473550/v2412473550_chunk_0000",
+      "game": "dark_souls_ii__scholar_of_the_first_sin",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2418564391/v2418564391_chunk_0000",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 1.0
+    },
+    {
+      "chunk": "SHARD_0000/v2424731661/v2424731661_chunk_0000",
+      "game": "dead_cells",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.53
+    },
+    {
+      "chunk": "SHARD_0000/v2443809322/v2443809322_chunk_0000",
+      "game": "final_fantasy_ix",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.5633333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v2445242873/v2445242873_chunk_0000",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1000,
+      "fps": 50.0,
+      "idle_frac": 0.519
+    },
+    {
+      "chunk": "SHARD_0000/v2447832501/v2447832501_chunk_0000",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2451750413/v2451750413_chunk_0000",
+      "game": "clair_obscur__expedition_33",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 1.0
+    },
+    {
+      "chunk": "SHARD_0000/v2452920302/v2452920302_chunk_0000",
+      "game": "monster_hunter_wilds",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2460983951/v2460983951_chunk_0000",
+      "game": "devil_may_cry_3__dante_s_awakening_-_special_edition",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8991666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2473870720/v2473870720_chunk_0000",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.15916666666666668
+    },
+    {
+      "chunk": "SHARD_0000/v2511525153/v2511525153_chunk_0000",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.13833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v2538591792/v2538591792_chunk_0000",
+      "game": "cuphead",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7058333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2547437298/v2547437298_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7533333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2559140378/v2559140378_chunk_0000",
+      "game": "hollow_knight__silksong",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.385
+    },
+    {
+      "chunk": "SHARD_0000/v2574522568/v2574522568_chunk_0000",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3625
+    },
+    {
+      "chunk": "SHARD_0000/v2588974646/v2588974646_chunk_0000",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04416666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v492446475/v492446475_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.09916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v781238993/v781238993_chunk_0000",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7691666666666667
+    },
+    {
+      "chunk": "SHARD_0000/vIfux5VTmok/vIfux5VTmok_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3908333333333333
+    },
+    {
+      "chunk": "SHARD_0000/vj5nkHEaAX4/vj5nkHEaAX4_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.13833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/wqxnoOFqjas/wqxnoOFqjas_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6766666666666666
+    },
+    {
+      "chunk": "SHARD_0000/yEtvV41wxOU/yEtvV41wxOU_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.17
+    },
+    {
+      "chunk": "SHARD_0000/yW2IcUi04LU/yW2IcUi04LU_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6
+    },
+    {
+      "chunk": "SHARD_0000/zbGTHfcIWw0/zbGTHfcIWw0_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3075
+    },
+    {
+      "chunk": "SHARD_0000/zvtMGP_oCgA/zvtMGP_oCgA_chunk_0000",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.31666666666666665
+    },
+    {
+      "chunk": "SHARD_0000/-N72WiKxmfg/-N72WiKxmfg_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.005833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/-jMcN_qwq9k/-jMcN_qwq9k_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5191666666666667
+    },
+    {
+      "chunk": "SHARD_0000/0TZC693ZPRU/0TZC693ZPRU_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.9033333333333333
+    },
+    {
+      "chunk": "SHARD_0000/18vq3UpvNL0/18vq3UpvNL0_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 1.0
+    },
+    {
+      "chunk": "SHARD_0000/1SW2AZ47720/1SW2AZ47720_chunk_0001",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1725
+    },
+    {
+      "chunk": "SHARD_0000/2MoMeH5mO8E/2MoMeH5mO8E_chunk_0001",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.72
+    },
+    {
+      "chunk": "SHARD_0000/2jJENZDPzVU/2jJENZDPzVU_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.64
+    },
+    {
+      "chunk": "SHARD_0000/34AzmFgsmF4/34AzmFgsmF4_chunk_0001",
+      "game": "mx_bikes",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3725
+    },
+    {
+      "chunk": "SHARD_0000/3hxvakUckVI/3hxvakUckVI_chunk_0001",
+      "game": "riders_republic",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.9065108514190318
+    },
+    {
+      "chunk": "SHARD_0000/42FpL8jk4QM/42FpL8jk4QM_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/4OayD3cIRI0/4OayD3cIRI0_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.016666666666666666
+    },
+    {
+      "chunk": "SHARD_0000/54vavwqf9OM/54vavwqf9OM_chunk_0001",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9266666666666666
+    },
+    {
+      "chunk": "SHARD_0000/60QODA9qGL8/60QODA9qGL8_chunk_0001",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.87
+    },
+    {
+      "chunk": "SHARD_0000/6LhiIhAPg2s/6LhiIhAPg2s_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.12083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/7gTA_UdeUNM/7gTA_UdeUNM_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.018333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/80RCuwKFkug/80RCuwKFkug_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5925
+    },
+    {
+      "chunk": "SHARD_0000/8KqzMjX3daY/8KqzMjX3daY_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.8183333333333334
+    },
+    {
+      "chunk": "SHARD_0000/9-FusL-aJUw/9-FusL-aJUw_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1175
+    },
+    {
+      "chunk": "SHARD_0000/9KMgOT104ug/9KMgOT104ug_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.018333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/A1u-GF_F0mo/A1u-GF_F0mo_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.13166666666666665
+    },
+    {
+      "chunk": "SHARD_0000/AmZVfytJ3TU/AmZVfytJ3TU_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5525
+    },
+    {
+      "chunk": "SHARD_0000/B7w19l4tGG4/B7w19l4tGG4_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.09166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/Bqghfh9Vhog/Bqghfh9Vhog_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.06916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/C9rT7IvU5Rw/C9rT7IvU5Rw_chunk_0001",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.33
+    },
+    {
+      "chunk": "SHARD_0000/CYQDBsAvBOg/CYQDBsAvBOg_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0016666666666666668
+    },
+    {
+      "chunk": "SHARD_0000/DCqsQQgvbzo/DCqsQQgvbzo_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6608333333333334
+    },
+    {
+      "chunk": "SHARD_0000/DVduIeXLTEE/DVduIeXLTEE_chunk_0001",
+      "game": "mx_bikes",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5875
+    },
+    {
+      "chunk": "SHARD_0000/EFrZbWZAvZk/EFrZbWZAvZk_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8791666666666667
+    },
+    {
+      "chunk": "SHARD_0000/Fihy-RdZIq8/Fihy-RdZIq8_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7033333333333334
+    },
+    {
+      "chunk": "SHARD_0000/GO5zw1-RtqQ/GO5zw1-RtqQ_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/I55PAGnve5Q/I55PAGnve5Q_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5983333333333334
+    },
+    {
+      "chunk": "SHARD_0000/J5VbfsGeWVg/J5VbfsGeWVg_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2025
+    },
+    {
+      "chunk": "SHARD_0000/Jq_87HyaQ1o/Jq_87HyaQ1o_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.008333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/Kaw9IuFrThQ/Kaw9IuFrThQ_chunk_0001",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/LH1cm9C-kR0/LH1cm9C-kR0_chunk_0001",
+      "game": "skating_the_map",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2833333333333333
+    },
+    {
+      "chunk": "SHARD_0000/LdJlCGLOBvI/LdJlCGLOBvI_chunk_0001",
+      "game": "game_3",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/Lwvz4EXT6JE/Lwvz4EXT6JE_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3
+    },
+    {
+      "chunk": "SHARD_0000/MfCI5IX4r1E/MfCI5IX4r1E_chunk_0001",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0075
+    },
+    {
+      "chunk": "SHARD_0000/NnZp7ZKY6G4/NnZp7ZKY6G4_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.23583333333333334
+    },
+    {
+      "chunk": "SHARD_0000/OCj7w1_yde4/OCj7w1_yde4_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.085
+    },
+    {
+      "chunk": "SHARD_0000/OzHkdb2Txkw/OzHkdb2Txkw_chunk_0001",
+      "game": "fortnite",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.34974958263772954
+    },
+    {
+      "chunk": "SHARD_0000/PhCB59tSwU4/PhCB59tSwU4_chunk_0001",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.012520868113522538
+    },
+    {
+      "chunk": "SHARD_0000/Q1Bq5BPiroo/Q1Bq5BPiroo_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.27
+    },
+    {
+      "chunk": "SHARD_0000/QOBW_A019FY/QOBW_A019FY_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.12666666666666668
+    },
+    {
+      "chunk": "SHARD_0000/RKV9oAx2ILg/RKV9oAx2ILg_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.17333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/Slb11Dbpn8c/Slb11Dbpn8c_chunk_0001",
+      "game": "thin_ice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.21333333333333335
+    },
+    {
+      "chunk": "SHARD_0000/UX4eyE-Pabw/UX4eyE-Pabw_chunk_0001",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7933333333333333
+    },
+    {
+      "chunk": "SHARD_0000/UrTqVw3ZZW8/UrTqVw3ZZW8_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/VDCTXGPN3_Y/VDCTXGPN3_Y_chunk_0001",
+      "game": "session__skate_sim",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.16166666666666665
+    },
+    {
+      "chunk": "SHARD_0000/Vshwd9ep5Tc/Vshwd9ep5Tc_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.35
+    },
+    {
+      "chunk": "SHARD_0000/WzDT8K9YBLs/WzDT8K9YBLs_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.035833333333333335
+    },
+    {
+      "chunk": "SHARD_0000/XGD6nwJ7j0s/XGD6nwJ7j0s_chunk_0001",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.0025041736227045075
+    },
+    {
+      "chunk": "SHARD_0000/XyCsr72T7bA/XyCsr72T7bA_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.005833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/YKgacjLqP6I/YKgacjLqP6I_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.2654424040066778
+    },
+    {
+      "chunk": "SHARD_0000/YhMMEp25UoM/YhMMEp25UoM_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.39916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/Zmu75KZ_fuE/Zmu75KZ_fuE_chunk_0001",
+      "game": "hex-a-gone",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7608333333333334
+    },
+    {
+      "chunk": "SHARD_0000/_ptzQ_gFsWk/_ptzQ_gFsWk_chunk_0001",
+      "game": "inscreva-se_no_canal_",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.30833333333333335
+    },
+    {
+      "chunk": "SHARD_0000/aAGc0TmAzgg/aAGc0TmAzgg_chunk_0001",
+      "game": "fortnite",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.2270450751252087
+    },
+    {
+      "chunk": "SHARD_0000/atOWEpWK-IA/atOWEpWK-IA_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.03333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/bFUbfve1eh8/bFUbfve1eh8_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/cKjp5_ARZ2Y/cKjp5_ARZ2Y_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.008333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/dUQKTQWBSvI/dUQKTQWBSvI_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.4266666666666667
+    },
+    {
+      "chunk": "SHARD_0000/dpCmJg3HSrk/dpCmJg3HSrk_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9141666666666667
+    },
+    {
+      "chunk": "SHARD_0000/eBByeqJAUIE/eBByeqJAUIE_chunk_0001",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.018363939899833055
+    },
+    {
+      "chunk": "SHARD_0000/eZGudq3y3Ws/eZGudq3y3Ws_chunk_0001",
+      "game": "flutter_barn",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.1001669449081803
+    },
+    {
+      "chunk": "SHARD_0000/fKfN04c1teM/fKfN04c1teM_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6858333333333333
+    },
+    {
+      "chunk": "SHARD_0000/g45OJquQXDw/g45OJquQXDw_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.059166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/gjN_b0t7WVA/gjN_b0t7WVA_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.83
+    },
+    {
+      "chunk": "SHARD_0000/h6HlQDqhiiE/h6HlQDqhiiE_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.14166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/hu2apbhsask/hu2apbhsask_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.009166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/izDnNQOunfM/izDnNQOunfM_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.14583333333333334
+    },
+    {
+      "chunk": "SHARD_0000/jIy9Nz9rKqw/jIy9Nz9rKqw_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4891666666666667
+    },
+    {
+      "chunk": "SHARD_0000/jek-wuxheKc/jek-wuxheKc_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.46166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/k-xRGJa2WPg/k-xRGJa2WPg_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.025
+    },
+    {
+      "chunk": "SHARD_0000/kjHMCaaPv04/kjHMCaaPv04_chunk_0001",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.027545909849749584
+    },
+    {
+      "chunk": "SHARD_0000/lYbYUmGbW68/lYbYUmGbW68_chunk_0001",
+      "game": "art_of_rally",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.023333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/lwFEJDDIvf4/lwFEJDDIvf4_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.12166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/mH5Z0VFkCaA/mH5Z0VFkCaA_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/mz9L5REkVSc/mz9L5REkVSc_chunk_0001",
+      "game": "lothric_castle",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/nKOfILv5UqU/nKOfILv5UqU_chunk_0001",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9266666666666666
+    },
+    {
+      "chunk": "SHARD_0000/neqv-LM1rNw/neqv-LM1rNw_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.11583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/om79NcXk0yo/om79NcXk0yo_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3308333333333333
+    },
+    {
+      "chunk": "SHARD_0000/p3dNZNcx8hk/p3dNZNcx8hk_chunk_0001",
+      "game": "dark_souls",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.7813021702838063
+    },
+    {
+      "chunk": "SHARD_0000/pRA4enniVBA/pRA4enniVBA_chunk_0001",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.345
+    },
+    {
+      "chunk": "SHARD_0000/plk3ew345RI/plk3ew345RI_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.205
+    },
+    {
+      "chunk": "SHARD_0000/q6RX8Hg3_qk/q6RX8Hg3_qk_chunk_0001",
+      "game": "_untitled_chapter_1_",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0175
+    },
+    {
+      "chunk": "SHARD_0000/rUj0PUnF3mU/rUj0PUnF3mU_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.02666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/sZMgHppWIXQ/sZMgHppWIXQ_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.795
+    },
+    {
+      "chunk": "SHARD_0000/swR7dbGIMDs/swR7dbGIMDs_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/tH520Ah-J-E/tH520Ah-J-E_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7416666666666667
+    },
+    {
+      "chunk": "SHARD_0000/ta3BF1RPHD4/ta3BF1RPHD4_chunk_0001",
+      "game": "session__skate_sim",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.36833333333333335
+    },
+    {
+      "chunk": "SHARD_0000/twDMdrSxWfw/twDMdrSxWfw_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3383333333333333
+    },
+    {
+      "chunk": "SHARD_0000/uJfLqL7Tehw/uJfLqL7Tehw_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0125
+    },
+    {
+      "chunk": "SHARD_0000/v1013154358/v1013154358_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.03166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1074148792/v1074148792_chunk_0001",
+      "game": "hades",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.38397328881469117
+    },
+    {
+      "chunk": "SHARD_0000/v1295338174/v1295338174_chunk_0001",
+      "game": "mx_simulator",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0175
+    },
+    {
+      "chunk": "SHARD_0000/v141735129/v141735129_chunk_0001",
+      "game": "little_nightmares",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v1448044952/v1448044952_chunk_0001",
+      "game": "stranger_of_paradise__final_fantasy_origin",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9475
+    },
+    {
+      "chunk": "SHARD_0000/v1475402598/v1475402598_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4691666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1526625507/v1526625507_chunk_0001",
+      "game": "mx_simulator",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0525
+    },
+    {
+      "chunk": "SHARD_0000/v1600575438/v1600575438_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.15166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1631147401/v1631147401_chunk_0001",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8866666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1658382176/v1658382176_chunk_0001",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6291666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v1708436956/v1708436956_chunk_0001",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.30083333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v1730154745/v1730154745_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6108333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1754493974/v1754493974_chunk_0001",
+      "game": "call_of_duty__modern_warfare_ii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4075
+    },
+    {
+      "chunk": "SHARD_0000/v1775280851/v1775280851_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4058333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1793083239/v1793083239_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8308333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1865975542/v1865975542_chunk_0001",
+      "game": "halo_infinite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2683333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1941654996/v1941654996_chunk_0001",
+      "game": "little_nightmares_ii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6733333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1953240723/v1953240723_chunk_0001",
+      "game": "lies_of_p",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.26416666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v1971580714/v1971580714_chunk_0001",
+      "game": "fortnite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.08083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v1990168650/v1990168650_chunk_0001",
+      "game": "castlevania__symphony_of_the_night",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.15333333333333332
+    },
+    {
+      "chunk": "SHARD_0000/v2033270423/v2033270423_chunk_0001",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.21666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2047147293/v2047147293_chunk_0001",
+      "game": "salt_and_sanctuary",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.7854757929883138
+    },
+    {
+      "chunk": "SHARD_0000/v2067906738/v2067906738_chunk_0001",
+      "game": "geometry_dash",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8608333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2110981680/v2110981680_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5733333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v2122506189/v2122506189_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2425
+    },
+    {
+      "chunk": "SHARD_0000/v2129272837/v2129272837_chunk_0001",
+      "game": "fortnite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2135647078/v2135647078_chunk_0001",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5391666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2162110313/v2162110313_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.028333333333333332
+    },
+    {
+      "chunk": "SHARD_0000/v2204970770/v2204970770_chunk_0001",
+      "game": "the_legend_of_zelda__tears_of_the_kingdom",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.31916666666666665
+    },
+    {
+      "chunk": "SHARD_0000/v2220952459/v2220952459_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2232417875/v2232417875_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.09
+    },
+    {
+      "chunk": "SHARD_0000/v2241243379/v2241243379_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.2929883138564274
+    },
+    {
+      "chunk": "SHARD_0000/v2251390311/v2251390311_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.43666666666666665
+    },
+    {
+      "chunk": "SHARD_0000/v2258585990/v2258585990_chunk_0001",
+      "game": "patapon",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.9166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2287391750/v2287391750_chunk_0001",
+      "game": "dragon_ball__sparking__zero",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3283333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2297468680/v2297468680_chunk_0001",
+      "game": "elden_ring",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.21666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2312330331/v2312330331_chunk_0001",
+      "game": "retro",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6091666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v2330003861/v2330003861_chunk_0001",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.011666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2364929602/v2364929602_chunk_0001",
+      "game": "fortnite",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2371789066/v2371789066_chunk_0001",
+      "game": "geometry_dash",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5075
+    },
+    {
+      "chunk": "SHARD_0000/v2408179393/v2408179393_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.035
+    },
+    {
+      "chunk": "SHARD_0000/v2412473550/v2412473550_chunk_0001",
+      "game": "dark_souls_ii__scholar_of_the_first_sin",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2418564391/v2418564391_chunk_0001",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 1.0
+    },
+    {
+      "chunk": "SHARD_0000/v2424731661/v2424731661_chunk_0001",
+      "game": "dead_cells",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.45666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2443809322/v2443809322_chunk_0001",
+      "game": "final_fantasy_ix",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.6433333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v2445242873/v2445242873_chunk_0001",
+      "game": "sekiro__shadows_die_twice",
+      "frames": 1000,
+      "fps": 50.0,
+      "idle_frac": 0.551
+    },
+    {
+      "chunk": "SHARD_0000/v2447832501/v2447832501_chunk_0001",
+      "game": "dark_souls_iii",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/v2451750413/v2451750413_chunk_0001",
+      "game": "clair_obscur__expedition_33",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 1.0
+    },
+    {
+      "chunk": "SHARD_0000/v2452920302/v2452920302_chunk_0001",
+      "game": "monster_hunter_wilds",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5016666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2460983951/v2460983951_chunk_0001",
+      "game": "devil_may_cry_3__dante_s_awakening_-_special_edition",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7325
+    },
+    {
+      "chunk": "SHARD_0000/v2473870720/v2473870720_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5541666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2511525153/v2511525153_chunk_0001",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.095
+    },
+    {
+      "chunk": "SHARD_0000/v2538591792/v2538591792_chunk_0001",
+      "game": "cuphead",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.565
+    },
+    {
+      "chunk": "SHARD_0000/v2547437298/v2547437298_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.21083333333333334
+    },
+    {
+      "chunk": "SHARD_0000/v2559140378/v2559140378_chunk_0001",
+      "game": "hollow_knight__silksong",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.4116666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2563143397/v2563143397_chunk_0001",
+      "game": "_sekiro__shadows_die_twice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.415
+    },
+    {
+      "chunk": "SHARD_0000/v2569265358/v2569265358_chunk_0001",
+      "game": "bloodborne",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9191666666666667
+    },
+    {
+      "chunk": "SHARD_0000/v2574522568/v2574522568_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.050833333333333335
+    },
+    {
+      "chunk": "SHARD_0000/v2588974646/v2588974646_chunk_0001",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1575
+    },
+    {
+      "chunk": "SHARD_0000/v492446475/v492446475_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.075
+    },
+    {
+      "chunk": "SHARD_0000/v565458395/v565458395_chunk_0001",
+      "game": "celeste",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9858333333333333
+    },
+    {
+      "chunk": "SHARD_0000/v664921163/v664921163_chunk_0001",
+      "game": "hades",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.49916666666666665
+    },
+    {
+      "chunk": "SHARD_0000/v781238993/v781238993_chunk_0001",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.059166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/v886334970/v886334970_chunk_0001",
+      "game": "shantae__half-genie_hero",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9275
+    },
+    {
+      "chunk": "SHARD_0000/v946202192/v946202192_chunk_0001",
+      "game": "hollow_knight",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5266666666666666
+    },
+    {
+      "chunk": "SHARD_0000/vIfux5VTmok/vIfux5VTmok_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.006666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/vj5nkHEaAX4/vj5nkHEaAX4_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.165
+    },
+    {
+      "chunk": "SHARD_0000/wXFp9eF2kUc/wXFp9eF2kUc_chunk_0001",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3225
+    },
+    {
+      "chunk": "SHARD_0000/wqxnoOFqjas/wqxnoOFqjas_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/yEtvV41wxOU/yEtvV41wxOU_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0775
+    },
+    {
+      "chunk": "SHARD_0000/yW2IcUi04LU/yW2IcUi04LU_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.14833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/zbGTHfcIWw0/zbGTHfcIWw0_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.025
+    },
+    {
+      "chunk": "SHARD_0000/zvtMGP_oCgA/zvtMGP_oCgA_chunk_0001",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.059166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/-N72WiKxmfg/-N72WiKxmfg_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0025
+    },
+    {
+      "chunk": "SHARD_0000/-jMcN_qwq9k/-jMcN_qwq9k_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4925
+    },
+    {
+      "chunk": "SHARD_0000/0TZC693ZPRU/0TZC693ZPRU_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.445
+    },
+    {
+      "chunk": "SHARD_0000/18vq3UpvNL0/18vq3UpvNL0_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.9958333333333333
+    },
+    {
+      "chunk": "SHARD_0000/1SW2AZ47720/1SW2AZ47720_chunk_0002",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.35333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/2MoMeH5mO8E/2MoMeH5mO8E_chunk_0002",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7408333333333333
+    },
+    {
+      "chunk": "SHARD_0000/2jJENZDPzVU/2jJENZDPzVU_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5741666666666667
+    },
+    {
+      "chunk": "SHARD_0000/34AzmFgsmF4/34AzmFgsmF4_chunk_0002",
+      "game": "mx_bikes",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.065
+    },
+    {
+      "chunk": "SHARD_0000/3hxvakUckVI/3hxvakUckVI_chunk_0002",
+      "game": "riders_republic",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.9023372287145242
+    },
+    {
+      "chunk": "SHARD_0000/42FpL8jk4QM/42FpL8jk4QM_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/4OayD3cIRI0/4OayD3cIRI0_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.03333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/54vavwqf9OM/54vavwqf9OM_chunk_0002",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7783333333333333
+    },
+    {
+      "chunk": "SHARD_0000/60QODA9qGL8/60QODA9qGL8_chunk_0002",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7966666666666666
+    },
+    {
+      "chunk": "SHARD_0000/6LhiIhAPg2s/6LhiIhAPg2s_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.39416666666666667
+    },
+    {
+      "chunk": "SHARD_0000/7gTA_UdeUNM/7gTA_UdeUNM_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.07083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/80RCuwKFkug/80RCuwKFkug_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0275
+    },
+    {
+      "chunk": "SHARD_0000/8KqzMjX3daY/8KqzMjX3daY_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.9466666666666667
+    },
+    {
+      "chunk": "SHARD_0000/9-FusL-aJUw/9-FusL-aJUw_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.19916666666666666
+    },
+    {
+      "chunk": "SHARD_0000/9KMgOT104ug/9KMgOT104ug_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.010833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/A1u-GF_F0mo/A1u-GF_F0mo_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/AmZVfytJ3TU/AmZVfytJ3TU_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.08083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/B7w19l4tGG4/B7w19l4tGG4_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.5416666666666666
+    },
+    {
+      "chunk": "SHARD_0000/Bqghfh9Vhog/Bqghfh9Vhog_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.050833333333333335
+    },
+    {
+      "chunk": "SHARD_0000/C9rT7IvU5Rw/C9rT7IvU5Rw_chunk_0002",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/CYQDBsAvBOg/CYQDBsAvBOg_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.005
+    },
+    {
+      "chunk": "SHARD_0000/DCqsQQgvbzo/DCqsQQgvbzo_chunk_0002",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1825
+    },
+    {
+      "chunk": "SHARD_0000/DVduIeXLTEE/DVduIeXLTEE_chunk_0002",
+      "game": "mx_bikes",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04833333333333333
+    },
+    {
+      "chunk": "SHARD_0000/DuIBVZ9bKko/DuIBVZ9bKko_chunk_0002",
+      "game": "tentative_run_any__n_2__yaggi_pb___18_33_",
+      "frames": 300,
+      "fps": 15.0,
+      "idle_frac": 0.9233333333333333
+    },
+    {
+      "chunk": "SHARD_0000/EFrZbWZAvZk/EFrZbWZAvZk_chunk_0002",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.12333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/EcGYqf-ZAtc/EcGYqf-ZAtc_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.39916666666666667
+    },
+    {
+      "chunk": "SHARD_0000/F1Z5A6BydAY/F1Z5A6BydAY_chunk_0002",
+      "game": "apex_legends",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2125
+    },
+    {
+      "chunk": "SHARD_0000/Fihy-RdZIq8/Fihy-RdZIq8_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5608333333333333
+    },
+    {
+      "chunk": "SHARD_0000/GO5zw1-RtqQ/GO5zw1-RtqQ_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.005
+    },
+    {
+      "chunk": "SHARD_0000/IoLHDcItX8k/IoLHDcItX8k_chunk_0002",
+      "game": "grand_theft_auto_v",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.5883333333333334
+    },
+    {
+      "chunk": "SHARD_0000/J5VbfsGeWVg/J5VbfsGeWVg_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3233333333333333
+    },
+    {
+      "chunk": "SHARD_0000/Jq_87HyaQ1o/Jq_87HyaQ1o_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.015
+    },
+    {
+      "chunk": "SHARD_0000/Kaw9IuFrThQ/Kaw9IuFrThQ_chunk_0002",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.705
+    },
+    {
+      "chunk": "SHARD_0000/LH1cm9C-kR0/LH1cm9C-kR0_chunk_0002",
+      "game": "skating_the_map",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.425
+    },
+    {
+      "chunk": "SHARD_0000/LdJlCGLOBvI/LdJlCGLOBvI_chunk_0002",
+      "game": "game_3",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.3308333333333333
+    },
+    {
+      "chunk": "SHARD_0000/Lwvz4EXT6JE/Lwvz4EXT6JE_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/MfCI5IX4r1E/MfCI5IX4r1E_chunk_0002",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/NnZp7ZKY6G4/NnZp7ZKY6G4_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.05333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/OCj7w1_yde4/OCj7w1_yde4_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.17666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/OaU9mKo_n5w/OaU9mKo_n5w_chunk_0002",
+      "game": "mx_bikes",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7641666666666667
+    },
+    {
+      "chunk": "SHARD_0000/OzHkdb2Txkw/OzHkdb2Txkw_chunk_0002",
+      "game": "fortnite",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.2011686143572621
+    },
+    {
+      "chunk": "SHARD_0000/PhCB59tSwU4/PhCB59tSwU4_chunk_0002",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.09515859766277128
+    },
+    {
+      "chunk": "SHARD_0000/Q1Bq5BPiroo/Q1Bq5BPiroo_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.09833333333333333
+    },
+    {
+      "chunk": "SHARD_0000/QOBW_A019FY/QOBW_A019FY_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.011666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/R-Ft-33GOLc/R-Ft-33GOLc_chunk_0002",
+      "game": "elden_ring",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8466666666666667
+    },
+    {
+      "chunk": "SHARD_0000/RKV9oAx2ILg/RKV9oAx2ILg_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.185
+    },
+    {
+      "chunk": "SHARD_0000/Slb11Dbpn8c/Slb11Dbpn8c_chunk_0002",
+      "game": "thin_ice",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/UX4eyE-Pabw/UX4eyE-Pabw_chunk_0002",
+      "game": "fall_guys__ultimate_knockout",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/UrTqVw3ZZW8/UrTqVw3ZZW8_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/VDCTXGPN3_Y/VDCTXGPN3_Y_chunk_0002",
+      "game": "session__skate_sim",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4175
+    },
+    {
+      "chunk": "SHARD_0000/Vshwd9ep5Tc/Vshwd9ep5Tc_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.09583333333333334
+    },
+    {
+      "chunk": "SHARD_0000/WDxbsdqzxc4/WDxbsdqzxc4_chunk_0002",
+      "game": "streets_of_rage_2",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.985
+    },
+    {
+      "chunk": "SHARD_0000/WcA5hElgLw4/WcA5hElgLw4_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8708333333333333
+    },
+    {
+      "chunk": "SHARD_0000/WzDT8K9YBLs/WzDT8K9YBLs_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1425
+    },
+    {
+      "chunk": "SHARD_0000/XGD6nwJ7j0s/XGD6nwJ7j0s_chunk_0002",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.2671118530884808
+    },
+    {
+      "chunk": "SHARD_0000/XyCsr72T7bA/XyCsr72T7bA_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.025833333333333333
+    },
+    {
+      "chunk": "SHARD_0000/YKgacjLqP6I/YKgacjLqP6I_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.1669449081803005
+    },
+    {
+      "chunk": "SHARD_0000/YhMMEp25UoM/YhMMEp25UoM_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.4075
+    },
+    {
+      "chunk": "SHARD_0000/Zmu75KZ_fuE/Zmu75KZ_fuE_chunk_0002",
+      "game": "hex-a-gone",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.018333333333333333
+    },
+    {
+      "chunk": "SHARD_0000/_ptzQ_gFsWk/_ptzQ_gFsWk_chunk_0002",
+      "game": "inscreva-se_no_canal_",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.5133333333333333
+    },
+    {
+      "chunk": "SHARD_0000/aAGc0TmAzgg/aAGc0TmAzgg_chunk_0002",
+      "game": "fortnite",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.20617696160267113
+    },
+    {
+      "chunk": "SHARD_0000/atOWEpWK-IA/atOWEpWK-IA_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.06416666666666666
+    },
+    {
+      "chunk": "SHARD_0000/bFUbfve1eh8/bFUbfve1eh8_chunk_0002",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.014166666666666666
+    },
+    {
+      "chunk": "SHARD_0000/cKjp5_ARZ2Y/cKjp5_ARZ2Y_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.004166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/dUQKTQWBSvI/dUQKTQWBSvI_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.01
+    },
+    {
+      "chunk": "SHARD_0000/dpCmJg3HSrk/dpCmJg3HSrk_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/eBByeqJAUIE/eBByeqJAUIE_chunk_0002",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.167779632721202
+    },
+    {
+      "chunk": "SHARD_0000/eZGudq3y3Ws/eZGudq3y3Ws_chunk_0002",
+      "game": "flutter_barn",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.048414023372287146
+    },
+    {
+      "chunk": "SHARD_0000/fKfN04c1teM/fKfN04c1teM_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.5075
+    },
+    {
+      "chunk": "SHARD_0000/g45OJquQXDw/g45OJquQXDw_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.04833333333333333
+    },
+    {
+      "chunk": "SHARD_0000/gjN_b0t7WVA/gjN_b0t7WVA_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1325
+    },
+    {
+      "chunk": "SHARD_0000/h6HlQDqhiiE/h6HlQDqhiiE_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.19083333333333333
+    },
+    {
+      "chunk": "SHARD_0000/hu2apbhsask/hu2apbhsask_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.004166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/izDnNQOunfM/izDnNQOunfM_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.24166666666666667
+    },
+    {
+      "chunk": "SHARD_0000/jIy9Nz9rKqw/jIy9Nz9rKqw_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.25
+    },
+    {
+      "chunk": "SHARD_0000/jek-wuxheKc/jek-wuxheKc_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.0033333333333333335
+    },
+    {
+      "chunk": "SHARD_0000/k-xRGJa2WPg/k-xRGJa2WPg_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.041666666666666664
+    },
+    {
+      "chunk": "SHARD_0000/kjHMCaaPv04/kjHMCaaPv04_chunk_0002",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.19198664440734559
+    },
+    {
+      "chunk": "SHARD_0000/lYbYUmGbW68/lYbYUmGbW68_chunk_0002",
+      "game": "art_of_rally",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.021666666666666667
+    },
+    {
+      "chunk": "SHARD_0000/lwFEJDDIvf4/lwFEJDDIvf4_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0625
+    },
+    {
+      "chunk": "SHARD_0000/mH5Z0VFkCaA/mH5Z0VFkCaA_chunk_0002",
+      "game": "dark_souls_iii",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.0
+    },
+    {
+      "chunk": "SHARD_0000/mz9L5REkVSc/mz9L5REkVSc_chunk_0002",
+      "game": "lothric_castle",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.15083333333333335
+    },
+    {
+      "chunk": "SHARD_0000/nKOfILv5UqU/nKOfILv5UqU_chunk_0002",
+      "game": "kingdom_hearts__melody_of_memory",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.6483333333333333
+    },
+    {
+      "chunk": "SHARD_0000/neqv-LM1rNw/neqv-LM1rNw_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.1275
+    },
+    {
+      "chunk": "SHARD_0000/om79NcXk0yo/om79NcXk0yo_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.33
+    },
+    {
+      "chunk": "SHARD_0000/p3dNZNcx8hk/p3dNZNcx8hk_chunk_0002",
+      "game": "dark_souls",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.41318864774624375
+    },
+    {
+      "chunk": "SHARD_0000/pRA4enniVBA/pRA4enniVBA_chunk_0002",
+      "game": "other",
+      "frames": 600,
+      "fps": 30.0,
+      "idle_frac": 0.35
+    },
+    {
+      "chunk": "SHARD_0000/plk3ew345RI/plk3ew345RI_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.0075
+    },
+    {
+      "chunk": "SHARD_0000/q6RX8Hg3_qk/q6RX8Hg3_qk_chunk_0002",
+      "game": "_untitled_chapter_1_",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2025
+    },
+    {
+      "chunk": "SHARD_0000/rUj0PUnF3mU/rUj0PUnF3mU_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.010833333333333334
+    },
+    {
+      "chunk": "SHARD_0000/sZMgHppWIXQ/sZMgHppWIXQ_chunk_0002",
+      "game": "kingdom_hearts_hd_1_5___2_5_remix",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.7616666666666667
+    },
+    {
+      "chunk": "SHARD_0000/swR7dbGIMDs/swR7dbGIMDs_chunk_0002",
+      "game": "rocket_league",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.08583333333333333
+    },
+    {
+      "chunk": "SHARD_0000/tH520Ah-J-E/tH520Ah-J-E_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.058333333333333334
+    },
+    {
+      "chunk": "SHARD_0000/ta3BF1RPHD4/ta3BF1RPHD4_chunk_0002",
+      "game": "session__skate_sim",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.2975
+    },
+    {
+      "chunk": "SHARD_0000/twDMdrSxWfw/twDMdrSxWfw_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.8383333333333334
+    },
+    {
+      "chunk": "SHARD_0000/uJfLqL7Tehw/uJfLqL7Tehw_chunk_0002",
+      "game": "other",
+      "frames": 1200,
+      "fps": 60.0,
+      "idle_frac": 0.01
+    },
+    {
+      "chunk": "SHARD_0000/uglp-0FkOIU/uglp-0FkOIU_chunk_0002",
+      "game": "other",
+      "frames": 1198,
+      "fps": 59.9,
+      "idle_frac": 0.8814691151919867
+    }
+  ]
+}
