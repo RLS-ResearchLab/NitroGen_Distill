@@ -225,7 +225,11 @@ class NitroGenModel(nn.Module):
             model = SiglipVisionModel.from_pretrained(name)
         else:
             model = SiglipVisionModel(SiglipVisionConfig.from_pretrained(name))
-        return model.vision_model
+        # The checkpoint stores the inner vision model (children: embeddings/encoder/head).
+        # transformers <=4.x wraps it as `model.vision_model`; 5.x flattens it so
+        # SiglipVisionModel *is* that module. Return whichever exposes those children so
+        # state-dict keys (vision_encoder.embeddings.*, ...) match across versions.
+        return model.vision_model if hasattr(model, "vision_model") else model
 
     # ------------------------------------------------------------------ freezing
 

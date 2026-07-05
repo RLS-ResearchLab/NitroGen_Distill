@@ -23,10 +23,29 @@ ensure_venv() {
   source "$VENV/bin/activate"
 }
 
+# If a GPU is present but torch can't use it (common: pip pulls a torch built for a newer
+# CUDA than the box's driver supports), reinstall a torch wheel matching the driver.
+fix_torch_cuda() {
+  command -v nvidia-smi >/dev/null 2>&1 || return 0  # no GPU: CPU torch is fine
+  python -c "import torch,sys; sys.exit(0 if torch.cuda.is_available() else 1)" 2>/dev/null && return 0
+
+  local drv idx
+  drv="$(nvidia-smi --query-gpu=driver_version --format=csv,noheader | head -1)"
+  echo "GPU present but torch.cuda unavailable (driver $drv). Installing a matching torch..."
+  # Map driver's max CUDA runtime -> a torch wheel index. cu121 (torch<=2.5.1) covers
+  # drivers >= 525; extend this table as needed.
+  case "$drv" in
+    5[3-9][0-9].*|5[3-9].*) idx="cu121"; pin="torch==2.5.1" ;;
+    *)                       idx="cu121"; pin="torch==2.5.1" ;;
+  esac
+  pip install -q "$pin" --index-url "https://download.pytorch.org/whl/$idx"
+}
+
 case "${1:-setup}" in
   setup)
     ensure_venv
     pip install -e "$ROOT[dev]"
+    fix_torch_cuda
     python -c "import torch, ngd; print('torch', torch.__version__, '| cuda:', torch.cuda.is_available(), '| ngd', ngd.__version__)"
     ;;
   weights)
