@@ -24,6 +24,8 @@ ATOL = 1e-4  # fp32, identical op order; report actual max diff on failure
 @pytest.fixture(scope="module")
 def both_models(device):
     official_repo_on_path()
+    _patch_official_siglip_for_transformers5()
+
     from nitrogen.flow_matching_transformer.nitrogen import NitroGen as OfficialNitroGen
     from nitrogen.flow_matching_transformer.nitrogen import NitroGen_Config as OfficialConfig
 
@@ -41,6 +43,18 @@ def both_models(device):
     batch = make_synthetic_batch(loaded.tokenizer, batch_size=2, training=True, seed=7, device=device)
     batch["game_id"] = batch["game_ids"]  # official forward reads "game_id", get_action "game_ids"
     return ours, official, batch
+
+
+def _patch_official_siglip_for_transformers5():
+    """The official code does `SiglipVisionModel.from_pretrained(...).vision_model`, but
+    transformers 5.x flattened that wrapper away. Add a `.vision_model` property that
+    returns the model itself so the unmodified official constructor runs. This touches
+    only attribute access, not weights or forward math -- parity remains a fair test.
+    """
+    from transformers import SiglipVisionModel
+
+    if not hasattr(SiglipVisionModel, "vision_model"):
+        SiglipVisionModel.vision_model = property(lambda self: self)
 
 
 def _report(name, a, b):
