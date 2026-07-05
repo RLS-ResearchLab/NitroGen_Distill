@@ -35,10 +35,11 @@ fix_torch_cuda() {
   # Map driver's max CUDA runtime -> a torch wheel index. cu121 (torch<=2.5.1) covers
   # drivers >= 525; extend this table as needed.
   case "$drv" in
-    5[3-9][0-9].*|5[3-9].*) idx="cu121"; pin="torch==2.5.1" ;;
-    *)                       idx="cu121"; pin="torch==2.5.1" ;;
+    5[3-9][0-9].*|5[3-9].*) idx="cu121"; pin="torch==2.5.1 torchvision==0.20.1" ;;
+    *)                       idx="cu121"; pin="torch==2.5.1 torchvision==0.20.1" ;;
   esac
-  pip install -q "$pin" --index-url "https://download.pytorch.org/whl/$idx"
+  # shellcheck disable=SC2086
+  pip install -q $pin --index-url "https://download.pytorch.org/whl/$idx"
 }
 
 case "${1:-setup}" in
