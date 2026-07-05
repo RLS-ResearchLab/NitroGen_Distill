@@ -90,6 +90,9 @@ class DiT(nn.Module):
         timestep: torch.LongTensor,  # (B,) discretized flow timestep
         return_all_hidden_states: bool = False,
     ):
+        # NOTE: no encoder attention mask. The official model builds a vl_attn_mask but
+        # never feeds it to attention (all VL tokens, including left-padding, are attended
+        # to). We match that exactly for checkpoint parity -- do not wire the mask in here.
         temb = self.timestep_encoder(timestep)
 
         hidden_states = hidden_states.contiguous()

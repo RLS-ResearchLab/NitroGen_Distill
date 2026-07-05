@@ -21,7 +21,7 @@ dependencies = [
     "pyarrow",
     "av",
     "pillow",
-    "huggingface_hub[cli]",
+    "huggingface_hub",
 ]
 
 [project.optional-dependencies]
@@ -32,3 +32,9 @@ videos = ["yt-dlp"]
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["ngd*"]
+
+[tool.pytest.ini_options]
+# Put the repo root on sys.path so `import tests.conftest` and `import ngd` both resolve
+# regardless of the working directory pytest is invoked from.
+pythonpath = ["."]
+testpaths = ["tests"]
