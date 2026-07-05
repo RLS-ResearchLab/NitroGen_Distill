@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nitrogen-distill"
+version = "0.1.0"
+description = "Readable, extendable reimplementation of NitroGen for distillation research"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "torch",
+    "einops",
+    "pydantic",
+    "pyyaml",
+    "transformers",
+    "diffusers",
+    "polars",
+    "pyarrow",
+    "av",
+    "pillow",
+    "huggingface_hub[cli]",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+# For fetching source gameplay videos referenced by the dataset metadata
+videos = ["yt-dlp"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ngd*"]

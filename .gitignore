@@ -1,0 +1,20 @@
+# Reference clones of the official repo (own .git; cloned on demand by ./env.sh test)
+NitroGen/
+third_party/
+
+# Large artifacts (never push weights or data)
+checkpoints/
+data/
+outputs/
+nitrogen.pdf
+*.pt
+
+# Python
+__pycache__/
+*.egg-info/
+*.pyc
+.venv/
+
+# Misc
+game_mapping.json
+*.log
